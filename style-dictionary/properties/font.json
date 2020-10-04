@@ -1,0 +1,51 @@
+{
+  "font": {
+    "lineheight": {
+      "base": {
+        "value": "1.5"
+      }
+    },
+    "family": {
+      "base": {
+        "value": "Roboto, sans-serif"
+      }
+    },
+    "weight": {
+      "base": {
+        "value": "{font.weight.regular.value}"
+      },
+      "light": {
+        "value": "300"
+      },
+      "regular": {
+        "value": "400"
+      },
+      "heavy": {
+        "value": "700"
+      },
+      "black": {
+        "value": "900"
+      }
+    },
+    "size": {
+      "base"  : {
+        "value": "{font.size.m.value}"
+      },
+      "s" : {
+        "value": "12px"
+      },
+      "m": {
+        "value": "16px"
+      },
+      "l" : {
+        "value": "24px"
+      },
+      "xl" : {
+        "value": "32px"
+      },
+      "xxl" : {
+        "value": "64px"
+      }
+    }
+  }
+}

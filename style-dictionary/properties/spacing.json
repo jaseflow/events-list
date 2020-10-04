@@ -1,0 +1,25 @@
+{
+  "spacing": {
+    "one": {
+      "value": "8px"
+    },
+    "two": {
+      "value": "16px"
+    },
+    "three": {
+      "value": "24px"
+    },
+    "four": {
+      "value": "32px"
+    },
+    "five": {
+      "value": "40px"
+    },
+    "seven": {
+      "value": "56px"
+    },
+    "fifteen": {
+      "value": "120px"
+    }
+  }
+}

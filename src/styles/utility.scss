@@ -1,0 +1,98 @@
+@import '../tokens/variables.scss';
+
+// Flex
+
+.flex {
+  display: flex;
+}
+
+.flex--reversed {
+  flex-direction: row-reverse;
+}
+
+.flex--stacked {
+  flex-direction: column;
+}
+
+.flex--stacked-reversed {
+  flex-direction: column-reverse;
+}
+
+.flex--aligned {
+  align-items: center;
+}
+
+.flex--end {
+  justify-content: flex-end;
+}
+
+.flex--spaced {
+  justify-content: space-between;
+}
+
+.flex--guts {
+  align-items: center;
+  justify-content: center;
+}
+
+// Font weights
+
+.type-light { font-weight: $token-font-weight-light }
+.type-regular { font-weight: $token-font-weight-regular }
+.type-heavy { font-weight: $token-font-weight-light }
+.type-black { font-weight: $token-font-weight-black }
+
+// Text stuff
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+// Colours
+
+.color-warning { color: $token-color-base-warning }
+.color-brand { color: $token-color-base-brand }
+
+// Margin
+
+.margin-b-one { margin-bottom: $token-spacing-one }
+.margin-b-two { margin-bottom: $token-spacing-two }
+.margin-b-three { margin-bottom: $token-spacing-three }
+.margin-b-four { margin-bottom: $token-spacing-four }
+
+.margin-t-one { margin-top: $token-spacing-one }
+.margin-t-two { margin-top: $token-spacing-two }
+.margin-t-three { margin-top: $token-spacing-three }
+.margin-t-four { margin-top: $token-spacing-four }
+
+.margin-r-one { margin-right: $token-spacing-one }
+.margin-r-two { margin-right: $token-spacing-two }
+.margin-r-three { margin-right: $token-spacing-three }
+.margin-r-four { margin-right: $token-spacing-four }
+
+.margin-l-one { margin-left: $token-spacing-one }
+.margin-l-two { margin-left: $token-spacing-two }
+.margin-l-three { margin-left: $token-spacing-three }
+.margin-l-four { margin-left: $token-spacing-four }
+
+// Padding
+
+.padding-b-one { padding-bottom: $token-spacing-one }
+.padding-b-two { padding-bottom: $token-spacing-two }
+.padding-b-three { padding-bottom: $token-spacing-three }
+.padding-b-four { padding-bottom: $token-spacing-four }
+
+.padding-t-one { padding-top: $token-spacing-one }
+.padding-t-two { padding-top: $token-spacing-two }
+.padding-t-three { padding-top: $token-spacing-three }
+.padding-t-four { padding-top: $token-spacing-four }
+
+.padding-t-one { padding-top: $token-spacing-one }
+.padding-t-two { padding-top: $token-spacing-two }
+.padding-t-three { padding-top: $token-spacing-three }
+.padding-t-four { padding-top: $token-spacing-four }
+
+.padding-t-one { padding-top: $token-spacing-one }
+.padding-t-two { padding-top: $token-spacing-two }
+.padding-t-three { padding-top: $token-spacing-three }
+.padding-t-four { padding-top: $token-spacing-four }

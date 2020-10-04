@@ -1,0 +1,22 @@
+{
+  "source": ["./style-dictionary/properties/**/*.json"],
+  "platforms": {
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "./src/tokens/",
+      "prefix": "token",
+      "files": [{
+        "destination": "variables.scss",
+        "format": "scss/variables"
+      }]
+    },
+    "js": {
+      "transformGroup": "js",
+      "buildPath": "./src/tokens/",
+      "files": [{
+        "destination": "variables.js",
+        "format": "javascript/es6"
+      }]
+    }
+  }
+}

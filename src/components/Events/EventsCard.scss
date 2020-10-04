@@ -1,0 +1,19 @@
+@import '../../tokens/variables.scss';
+
+.EventsCard {
+  background-color: $token-color-base-white;
+  box-shadow: $token-effects-shadow;
+  padding: $token-spacing-two;
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  grid-column-gap: $token-spacing-two;
+}
+
+.EventsCard__thumb {
+  width: 80px;
+}
+
+.EventsCard__date {
+  text-transform: uppercase;
+  color: $token-color-base-secondary;
+}

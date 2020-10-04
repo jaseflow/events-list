@@ -1,0 +1,51 @@
+@import '../tokens/variables.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: $token-font-size-base;
+  line-height: $token-font-lineheight-base;
+  color: $token-color-text;
+  background-color: $token-color-background;
+}
+
+img {
+  max-width: 100%;
+}
+
+// Type
+
+.title {
+  font-size: $token-font-size-xxl;
+  font-weight: $token-font-weight-black;
+  margin-bottom: $token-spacing-three;
+}
+
+h1,
+.h1 {
+  font-size: $token-font-size-xl;
+}
+
+h2,
+.h2 {
+  font-size: $token-font-size-l;
+}
+
+h2,
+.h2 {
+  font-size: $token-font-size-l;
+}
+
+h3,
+.h3 {
+  font-size: $token-font-size-m;
+}
+
+small,
+.small {
+  font-size: $token-font-size-s;
+}

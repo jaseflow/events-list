@@ -1,0 +1,30 @@
+{
+  "color": {
+    "base": {
+      "brand": {
+        "value": "#3D5096"
+      },
+      "primary": {
+        "value": "#333"
+      },
+      "secondary": {
+        "value": "#666"
+      },
+      "warning": {
+        "value": "#F14B17"
+      },
+      "white": {
+        "value": "#fff"
+      },
+      "black": {
+        "value": "#000"
+      }
+    },
+    "text": {
+      "value": "{color.base.primary.value}"
+    },
+    "background": {
+      "value": "#F6F6F6"
+    }
+  }
+}
