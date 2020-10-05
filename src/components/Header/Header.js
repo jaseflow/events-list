@@ -7,8 +7,9 @@ import logo from '../../assets/events.svg';
 import SearchForm from '../SearchForm/SearchForm';
 
 function Header(props) {
+
   return (
-    <div className="Header flex flex--guts">
+    <div className="Header flex flex--guts margin-b-two">
       <Link to="/" className="Header__logo">
         <img src={logo} alt="" />
       </Link>

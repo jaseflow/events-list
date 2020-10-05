@@ -1,7 +1,5 @@
 import React from 'react';
 
-import { Link } from 'react-router-dom';
-
 import './EventHero.scss'
 import Figure from '../shared/Figure';
 
