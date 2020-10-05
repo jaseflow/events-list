@@ -1,0 +1,34 @@
+@import '../../tokens/variables.scss';
+
+.SearchForm {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: $token-spacing-one;
+}
+
+.SearchFormName,
+.SearchFormLocation {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.SearchFormName__search,
+.SearchFormLocation__marker {
+  position: absolute;
+  left: $token-spacing-two;
+  margin-bottom: -1px; // Slight offset to align with input text
+  z-index: 10;
+}
+
+.SearchFormName__input,
+.SearchFormLocation__input {
+  padding-left: $token-spacing-five;
+}
+
+.SearchFormLocation__arrow {
+  position: absolute;
+  right: $token-spacing-two;
+  z-index: 10;
+  user-select: none;
+}

@@ -49,3 +49,24 @@ small,
 .small {
   font-size: $token-font-size-s;
 }
+
+// Forms
+
+.input {
+  background-color: $token-color-base-white;
+  color: $token-color-base-primary;
+  font-size: $token-font-size-base;
+  box-shadow: $token-effects-shadow;
+  border: 0;
+  height: $token-spacing-five;
+  padding: 0 $token-spacing-three;
+  width: 100%;
+}
+
+.input--select {
+  appearance: none;
+}
+
+.input::placeholder {
+  color: $token-color-base-tertiary;
+}

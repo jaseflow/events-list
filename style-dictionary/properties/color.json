@@ -10,6 +10,9 @@
       "secondary": {
         "value": "#666"
       },
+      "tertiary": {
+        "value": "#999"
+      },
       "warning": {
         "value": "#F14B17"
       },

@@ -4,6 +4,7 @@
   background-color: $token-color-base-white;
   box-shadow: $token-effects-shadow;
   padding: $token-spacing-two;
+  margin-bottom: $token-spacing-one;
   display: grid;
   grid-template-columns: 80px 1fr;
   grid-column-gap: $token-spacing-two;

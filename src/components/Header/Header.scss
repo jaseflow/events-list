@@ -1,0 +1,17 @@
+@import '../../tokens/variables.scss';
+
+.Header {
+  height: 80px;
+  background-color: $token-color-base-brand;
+  margin-bottom: $token-spacing-four;
+}
+
+.Header__logo {
+  position: absolute;
+  left: $token-spacing-four;
+}
+
+.Header__search {
+  flex: 1;
+  max-width: 600px;
+}

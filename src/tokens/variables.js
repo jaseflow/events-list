@@ -1,11 +1,12 @@
 /**
  * Do not edit directly
- * Generated on Sun, 04 Oct 2020 21:45:31 GMT
+ * Generated on Sun, 04 Oct 2020 23:42:09 GMT
  */
 
 export const ColorBaseBrand = "#3d5096";
 export const ColorBasePrimary = "#333333";
 export const ColorBaseSecondary = "#666666";
+export const ColorBaseTertiary = "#999999";
 export const ColorBaseWarning = "#f14b17";
 export const ColorBaseWhite = "#ffffff";
 export const ColorBaseBlack = "#000000";
