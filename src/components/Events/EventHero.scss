@@ -1,0 +1,16 @@
+@import '../../tokens/variables.scss';
+
+.EventHero {
+  position: relative;
+  margin-left: -$token-spacing-fifteen;
+  margin-right: -$token-spacing-fifteen;
+}
+
+.EventHero__scrim {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient($token-effects-scrim-start, $token-effects-scrim-end);
+  color: $token-effects-scrim-color;
+}

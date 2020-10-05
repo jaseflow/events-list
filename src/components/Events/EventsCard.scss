@@ -1,13 +1,19 @@
 @import '../../tokens/variables.scss';
 
 .EventsCard {
-  background-color: $token-color-base-white;
-  box-shadow: $token-effects-shadow;
-  padding: $token-spacing-two;
-  margin-bottom: $token-spacing-one;
   display: grid;
   grid-template-columns: 80px 1fr;
   grid-column-gap: $token-spacing-two;
+  padding: $token-spacing-two;
+  margin-bottom: $token-spacing-one;
+  background-color: $token-color-base-white;
+  box-shadow: $token-effects-shadow;
+  color: $token-color-text;
+  text-decoration: none;
+}
+
+.EventsCard:hover {
+  text-decoration: none;
 }
 
 .EventsCard__thumb {

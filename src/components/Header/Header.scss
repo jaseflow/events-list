@@ -9,6 +9,7 @@
 .Header__logo {
   position: absolute;
   left: $token-spacing-four;
+  display: block;
 }
 
 .Header__search {

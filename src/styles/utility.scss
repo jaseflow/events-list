@@ -55,6 +55,10 @@
 
 // Margin
 
+.flat {
+  margin-bottom: 0 !important // important because it should always be true
+}
+
 .margin-b-one { margin-bottom: $token-spacing-one }
 .margin-b-two { margin-bottom: $token-spacing-two }
 .margin-b-three { margin-bottom: $token-spacing-three }
@@ -77,6 +81,11 @@
 
 // Padding
 
+.padding-a-one { padding: $token-spacing-one }
+.padding-a-two { padding: $token-spacing-two }
+.padding-a-three { padding: $token-spacing-three }
+.padding-a-four { padding: $token-spacing-four }
+
 .padding-b-one { padding-bottom: $token-spacing-one }
 .padding-b-two { padding-bottom: $token-spacing-two }
 .padding-b-three { padding-bottom: $token-spacing-three }
@@ -87,12 +96,12 @@
 .padding-t-three { padding-top: $token-spacing-three }
 .padding-t-four { padding-top: $token-spacing-four }
 
-.padding-t-one { padding-top: $token-spacing-one }
-.padding-t-two { padding-top: $token-spacing-two }
-.padding-t-three { padding-top: $token-spacing-three }
-.padding-t-four { padding-top: $token-spacing-four }
+.padding-r-one { padding-right: $token-spacing-one }
+.padding-r-two { padding-right: $token-spacing-two }
+.padding-r-three { padding-right: $token-spacing-three }
+.padding-r-four { padding-right: $token-spacing-four }
 
-.padding-t-one { padding-top: $token-spacing-one }
-.padding-t-two { padding-top: $token-spacing-two }
-.padding-t-three { padding-top: $token-spacing-three }
-.padding-t-four { padding-top: $token-spacing-four }
+.padding-l-one { padding-left: $token-spacing-one }
+.padding-l-two { padding-left: $token-spacing-two }
+.padding-l-three { padding-left: $token-spacing-three }
+.padding-l-four { padding-left: $token-spacing-four }

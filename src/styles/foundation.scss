@@ -17,6 +17,17 @@ img {
   max-width: 100%;
 }
 
+// Links
+
+a {
+  color: $token-color-link;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 // Type
 
 .title {
@@ -45,9 +56,32 @@ h3,
   font-size: $token-font-size-m;
 }
 
+h1,
+.h1
+h2,
+.h2,
+h3,
+.h3 {
+  font-weight: $token-font-weight-heavy;
+  line-height: $token-font-lineheight-tight;
+}
+
 small,
 .small {
   font-size: $token-font-size-s;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+p,
+ul,
+ol,
+table {
+  margin-bottom: $token-spacing-two; // mmmmmm.. vertical rhythm
 }
 
 // Forms
@@ -59,7 +93,7 @@ small,
   box-shadow: $token-effects-shadow;
   border: 0;
   height: $token-spacing-five;
-  padding: 0 $token-spacing-three;
+  padding: 0 $token-spacing-four;
   width: 100%;
 }
 

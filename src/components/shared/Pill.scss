@@ -1,0 +1,17 @@
+@import '../../tokens/variables.scss';
+
+.Pill {
+  border-radius: $token-effects-radius-base;
+  border: 1px solid $token-color-base-primary;
+  color: $token-color-base-primary;
+  height: $token-spacing-four;
+  background-color: $token-color-base-white;
+  transition: all 375ms ease;
+  cursor: pointer;
+}
+
+.Pill:hover {
+  background-color: $token-color-base-brand;
+  border-color: $token-color-base-brand;
+  color: $token-color-base-white;
+}

@@ -23,6 +23,9 @@
         "value": "#000"
       }
     },
+    "link": {
+      "value": "{color.base.brand.value}"
+    },
     "text": {
       "value": "{color.base.primary.value}"
     },

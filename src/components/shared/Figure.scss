@@ -9,6 +9,7 @@
 .Figure--1-1 { padding-bottom: 100% }
 .Figure--4-3 { padding-bottom: 75% }
 .Figure--16-9 { padding-bottom: 56.25% }
+.Figure--21-9 { padding-bottom: 42.8571% }
 
 .Figure__content {
   position: absolute;
@@ -21,5 +22,6 @@
 .Figure__img {
   display: block;
   height: 100%;
+  width: 100%;
   object-fit: cover;
 }

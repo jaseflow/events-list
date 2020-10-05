@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 04 Oct 2020 23:42:09 GMT
+ * Generated on Mon, 05 Oct 2020 03:51:07 GMT
  */
 
 export const ColorBaseBrand = "#3d5096";
@@ -10,10 +10,16 @@ export const ColorBaseTertiary = "#999999";
 export const ColorBaseWarning = "#f14b17";
 export const ColorBaseWhite = "#ffffff";
 export const ColorBaseBlack = "#000000";
+export const ColorLink = "#3d5096";
 export const ColorText = "#333333";
 export const ColorBackground = "#f6f6f6";
 export const EffectsShadow = "0 5px 10px rgba(0,0,0,0.1)";
+export const EffectsScrimStart = "rgba(0,0,0,0)";
+export const EffectsScrimEnd = "rgba(0,0,0,0.5)";
+export const EffectsScrimColor = "#fff";
+export const EffectsRadiusBase = "5px";
 export const FontLineheightBase = "1.5";
+export const FontLineheightTight = "1.2";
 export const FontFamilyBase = "Roboto, sans-serif";
 export const FontWeightBase = "400";
 export const FontWeightLight = "300";

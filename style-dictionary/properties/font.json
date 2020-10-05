@@ -3,6 +3,9 @@
     "lineheight": {
       "base": {
         "value": "1.5"
+      },
+      "tight": {
+        "value": "1.2"
       }
     },
     "family": {

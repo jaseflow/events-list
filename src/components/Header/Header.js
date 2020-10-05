@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './Header.scss';
 
@@ -8,7 +9,9 @@ import SearchForm from '../SearchForm/SearchForm';
 function Header(props) {
   return (
     <div className="Header flex flex--guts">
-      <img className="Header__logo" src={logo} alt="" />
+      <Link to="/" className="Header__logo">
+        <img src={logo} alt="" />
+      </Link>
       <div className="Header__search">
         <SearchForm />
       </div>
