@@ -1,8 +1,6 @@
 const express = require('express');
 const cors = require('cors');
 
-const _ = require('lodash');
-
 const app = express()
 const port = 5000
 
