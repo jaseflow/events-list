@@ -19,6 +19,7 @@
   },
   "scripts": {
     "build-dictionary": "style-dictionary build --config ./style-dictionary/config.json",
+    "server": "node server.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
