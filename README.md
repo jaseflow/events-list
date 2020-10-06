@@ -39,3 +39,10 @@ reference point.
 ### Complete the React functionality
 I ran out of time figuring out how to use the new React router + hooks to watch for the
 route change and update the state to use the selected event details. 
+
+I hope that my approach to using the design tokens showcases the value I can add
+toe the Design System role rather than me being a little rusty on the latest
+React techniques.
+
+Thanks for the opportunity!
+Jason
