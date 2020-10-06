@@ -8,7 +8,6 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 import './SearchForm.scss';
 
 function SearchForm(props) {
-
   return (
     <form className="SearchForm">
       <div className="SearchFormName">
@@ -17,6 +16,7 @@ function SearchForm(props) {
           type="text"
           className="input SearchFormName__input"
           placeholder="Search for an event"
+          onChange={props.searchEvent}
         />
       </div>
       <div className="SearchFormLocation">
@@ -24,11 +24,12 @@ function SearchForm(props) {
         <select
           id="location"
           name="location"
+          onChange={props.selectLocation}
           className="input input--select SearchFormLocation__input">
-          <option selected value="anywhere">Anywhere</option>
-          <option value="brisbane">Brisbane</option>
-          <option value="goldcoast">Gold Coast</option>
-          <option value="cairns">Cairns</option>
+          <option value="anywhere">Anywhere</option>
+          <option value="Brisbane">Brisbane</option>
+          <option value="Gold Coast">Gold Coast</option>
+          <option value="Cairns">Cairns</option>
         </select>
         <FontAwesomeIcon icon={faChevronDown} className="SearchFormLocation__arrow" />
       </div>

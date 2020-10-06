@@ -5,7 +5,8 @@ import EventHero from './EventHero';
 import Breadcrumbs from '../shared/Breadcrumbs';
 import Pill from '../shared/Pill';
 
-function Event(props) {
+function EventDetails(props) {
+
   return (
     <div className="EventDetails container">
       <Breadcrumbs />
@@ -28,4 +29,4 @@ function Event(props) {
   )
 }
 
-export default Event;
+export default EventDetails;

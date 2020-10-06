@@ -8,13 +8,21 @@ import SearchForm from '../SearchForm/SearchForm';
 
 function Header(props) {
 
+  function handleSearch(e) {
+    props.onSearch(e.target.value);
+  }
+
+  function handleSetLocation(e) {
+    console.log(e)
+  }
+
   return (
     <div className="Header flex flex--guts margin-b-two">
       <Link to="/" className="Header__logo">
         <img src={logo} alt="" />
       </Link>
       <div className="Header__search">
-        <SearchForm />
+        <SearchForm searchEvent={props.onEventSearch} selectLocation={props.onSetLocation} />
       </div>
     </div>
   )

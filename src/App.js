@@ -12,6 +12,17 @@ import EventDetails from './components/Events/EventDetails';
 
 function App() {
   const [events, setEvents] = useState([]);
+  const [filteredEvents, setFilteredEvents] = useState([]);
+  const [searchedEvent, setSearchedEvent] = useState(null);
+  const [selectedLocation, setSelectedLocation] = useState('anywhere');
+
+  function handleEventSearch(e) {
+    setSearchedEvent(e.target.value)
+  }
+
+  function handleSetLocation(e) {
+    setSelectedLocation(e.target.value)
+  }
 
   async function fetchData() {
     try {
@@ -28,12 +39,26 @@ function App() {
     fetchData();
   }, []);
 
+  // watch for location changes
+  useEffect(() => {
+    setFilteredEvents(filteredEvents => events.filter(item => {
+      if (searchedEvent) {
+        const titleMatch = item.Title.toLowerCase().includes(searchedEvent.toLowerCase())
+        if (!titleMatch) {
+          return false
+        }
+      }
+      const cityMatch = selectedLocation.includes(item.Location.City)
+      return cityMatch || selectedLocation === 'anywhere'
+    }))
+  }, [selectedLocation, searchedEvent, events]);
+
   return (
     <div className="App">
       <Router>
-        <Header />
+        <Header onEventSearch={handleEventSearch} onSetLocation={handleSetLocation}/>
         <Route exact path="/">
-          <EventsList events={events} />
+          <EventsList events={filteredEvents} />
         </Route>
         <Route path="/event">
           <EventDetails />
